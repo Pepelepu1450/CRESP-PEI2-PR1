@@ -1,0 +1,99 @@
+body{
+    margin: 0%;
+    background-image: url('./img/thiago-patriota-W4R_feMD4MA-unsplash.jpg');
+    background-size: cover;
+}
+.fondo{
+    display: grid;
+    grid-template-rows: 9.4% 1fr 12%;
+    height: 800px;
+    /* position: relative; */
+}
+.contact-container{
+    display: flex;
+    justify-content: center;
+}
+.form-container{
+    padding: 100px;
+    display: flex;
+    flex-direction: column;    
+}
+.contact-title{
+    
+    font-family: sans-serif;
+    color:  rgba(0, 0, 0, 0.80);
+    font-size: 20px;
+}
+.label-group{
+    margin-bottom: 20px;
+    font-family: sans-serif;
+    color: rgba(0, 0, 0, 0.70);
+    font-weight: 500;
+    
+}
+.contact-input{
+    display: block;
+    border: 1px solid rgba(0, 0, 0, 0.40);
+    border-radius: 3px;
+    
+}
+.contact-label{
+    display: block;
+    color: white;
+}
+
+.short-label{
+    line-height: 15px; 
+    width: 400px;
+}
+.middle-label{
+    line-height: 15px;
+    width: 400px;
+}
+.big-label{
+    line-height: 150px;
+    width: 400px;
+    
+}
+.contact-sumbit-button{
+    background-color: #FA8334;
+    border: 1px solid black;
+    border-radius: 3px;
+    line-height: 25px;
+}
+.required-indicator {
+    color: red;
+}
+
+.message {
+    margin-bottom: 10px;
+    font-family: sans-serif;
+    border-radius: 5px;
+    text-align: center;
+    display: none;
+}
+
+.message.info {
+    background-color: palegreen;
+    border: 2px solid green;
+}
+
+.message.danger {
+    background-color: #bb2124;
+    border: 2px solid red;
+    color: white;
+}
+
+.message.visible {
+    display: block;
+}
+.danger-color{
+    border: 2px solid #bb2124;
+}
+
+.red-label{
+    color: #bb2124;
+}
+
+/* nav */
+/*  */

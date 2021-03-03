@@ -1,0 +1,157 @@
+body {
+    margin: 0;
+    background-image: url('./img/boukaih-9vs_XsYwsdE-unsplash.jpg');
+    background-size: cover;
+}
+.fondo{
+    display: grid;
+    grid-template-rows: 9.4% 1fr 12%;
+    height: 800px;
+    /* position: relative; */
+}
+
+.texto{
+    display: flex;
+    justify-content: center;
+}
+.titulo{
+    color: white;
+    font-family: sans-serif; 
+}
+.navbar{
+    display: flex;
+    margin: 0;
+    background: rgb( 36, 113, 163 );
+    justify-content: space-around;
+}
+.nav-home{
+    text-decoration: none;
+    display: block;
+    padding: 1em;
+    color: white;
+    font-family: sans-serif; 
+}
+.home{
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 1em;
+}
+.nav-info{
+    text-decoration: none;
+    display: block;
+    padding: 1em;
+    color: white;
+    font-family: sans-serif; 
+}
+.info{
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 1em;
+}
+.nav-login{
+    text-decoration: none;
+    display: block;
+    padding: 1em;
+    color: white;
+    font-family: sans-serif; 
+}
+.login{
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 1em;
+}
+.nav-products{
+    text-decoration: none;
+    display: block;
+    padding: 1em;
+    color: white;
+    font-family: sans-serif; 
+}
+.products{
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 1em;
+}
+
+.footer{
+    background: black;
+    color: white;
+    font-family: sans-serif;
+    
+}
+@media (max-width: 768px){
+    .navbar{
+        display: none;
+    }
+
+    .navbar-hide{
+        display: block;
+    }
+
+    .text{
+        left: 25%;
+    }
+    
+}
+
+#button{
+    cursor: pointer;
+}
+.bars-hide{
+    display: block;
+    padding: 1em;
+}
+
+.navbar-hide{
+    display: flex;
+    background: rgb( 36, 113, 163 );
+}
+.navbar-hide-options{
+    display: none;
+    
+}
+.home-hide{
+    text-decoration: none;
+    color: black;
+    display: block;
+    padding: 1em;
+    font-family: sans-serif;
+}
+.info-hide{
+    text-decoration: none;
+    color: black;
+    display: block;
+    padding: 1em;
+    font-family: sans-serif;
+}
+.products-hide{
+    text-decoration: none;
+    color: black;
+    display: block;
+    padding: 1em;
+    font-family: sans-serif;
+}
+.login-hide{
+    text-decoration: none;
+    color: black;
+    display: block;
+    padding: 1em;
+    font-family: sans-serif;
+}
+
+
+
+@media (min-width: 768px) {
+    
+    #hide{
+        display: none;
+    }
+    .navbar-hide{
+        display: none;
+    }
+
+}
